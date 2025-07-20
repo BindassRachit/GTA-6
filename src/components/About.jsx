@@ -39,10 +39,9 @@ const About = () => {
         />
 
         <div className="about-subtext">
-          <p>The Game of Games begins—your life, now an epic MMORPG</p>
+          <p>Life has now become an open world... and the control is entirely in your hands.</p>
           <p className="text-gray-500">
-            Zentry unites every player from countless games and platforms, both
-            digital and physical, into a unified Play Economy
+            GTA 6 unites every outlaw, hustler, and dreamer—across streets, screens, and shadows—into one ruthless underworld.
           </p>
         </div>
       </div>

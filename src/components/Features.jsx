@@ -117,10 +117,10 @@ const Features = () => (
           src="videos/feature-1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              GTA 4
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="A next-gen companion app for GTA 5, bridging your in-game actions with real-world rewards across Web2 and Web3 ecosystems"
           isComingSoon
         />
       </BentoTilt>
