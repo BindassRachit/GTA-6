@@ -106,9 +106,7 @@ const FloatingImage = () => {
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-              Where realms converge, lies Zentry and the boundless pillar.
-              Discover its secrets and shape your fate amidst infinite
-              opportunities.
+              At Rockstar Games, we don’t just make games — we craft worlds. Dive into our most iconic creations that have shaped modern gaming. Whether it's the criminal underworld of Los Santos or the rugged frontier of the Wild West, our featured titles promise cinematic storytelling, cutting-edge visuals, and unforgettable gameplay.
             </p>
 
             <Button

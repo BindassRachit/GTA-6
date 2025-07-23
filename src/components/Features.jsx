@@ -90,7 +90,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">coming soon</p>
+            <p className="relative z-20">Download</p>
           </div>
         )}
       </div>
@@ -103,24 +103,23 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+          Featured Games
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+          From groundbreaking titles like Grand Theft Auto V and Red Dead Redemption 2 to the highly anticipated GTA VI, Rockstar Games continues to redefine interactive entertainment. Explore our latest releases, game updates, and exclusive behind-the-scenes content — only at Rockstar Games.
         </p>
       </div>
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="videos/Feature-10.mp4"
           title={
             <>
-              GTA 4
+              Red Dead Online 
             </>
           }
-          description="A next-gen companion app for GTA 5, bridging your in-game actions with real-world rewards across Web2 and Web3 ecosystems"
+          description="Strange Tales of the West
+Embark upon four new adventures that require steely resolve and courage in the face of the odd, twisted, and downright supernatural."
           isComingSoon
         />
       </BentoTilt>
@@ -128,13 +127,13 @@ const Features = () => (
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="videos/feature-2.mp4"
+            src="videos/feature-1.mp4"
             title={
               <>
-                zig<b>m</b>a
+                GTA 5
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            description="A next-gen companion app for GTA 5, bridging your in-game actions with real-world rewards across Web2 and Web3 ecosystems"
             isComingSoon
           />
         </BentoTilt>
@@ -144,7 +143,7 @@ const Features = () => (
             src="videos/feature-3.mp4"
             title={
               <>
-                n<b>e</b>xus
+                Bully <b>2</b>
               </>
             }
             description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
@@ -157,7 +156,7 @@ const Features = () => (
             src="videos/feature-4.mp4"
             title={
               <>
-                az<b>u</b>l
+                Agent
               </>
             }
             description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."

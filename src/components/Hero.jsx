@@ -79,7 +79,7 @@ const Hero = () => {
     });
   });
 
-  const getVideoSrc = (index) => `videos/feature-1.mp4`;
+  const getVideoSrc = (index) => `videos/Main.mp4`;
 
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
