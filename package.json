@@ -1,14 +1,17 @@
 {
-  "name": "Gaming-Zone",
+  "name": "GTA-6",
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://bindassrachit.github.io/GTA-6/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "node index.js"
+    "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
@@ -30,6 +33,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "eslint-plugin-tailwindcss": "^3.17.5",
+    "gh-pages": "^6.3.0",
     "globals": "^15.11.0",
     "postcss": "^8.4.49",
     "prettier": "^3.3.3",
