@@ -13,22 +13,22 @@ const Contact = () => {
       <div className="relative rounded-lg bg-black py-24 text-blue-50 sm:overflow-hidden">
         <div className="absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96">
           <ImageClipBox
-            src={`${import.meta.env.BASE_URL}img/contact-1.webp`}
+            src={new URL('/img/contact-1.webp', import.meta.url).href}
             clipClass="contact-clip-path-1"
           />
           <ImageClipBox
-            src={`${import.meta.env.BASE_URL}img/contact-2.webp`}
+            src={new URL('/img/contact-2.webp', import.meta.url).href}
             clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"
           />
         </div>
 
         <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
           <ImageClipBox
-            src={`${import.meta.env.BASE_URL}img/swordman.png`}
+            src={new URL('/img/swordman.png', import.meta.url).href}
             clipClass="absolute md:scale-125"
           />
           <ImageClipBox
-            src={`${import.meta.env.BASE_URL}img/swordman.png`}
+            src={new URL('/img/swordman.png', import.meta.url).href}
             clipClass="sword-man-clip-path md:scale-125"
           />
         </div>
